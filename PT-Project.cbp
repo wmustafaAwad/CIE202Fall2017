@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PT-Project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="PT-Project" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+				</Compiler>
+				<Linker>
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+					<Add library="winmm.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="PT-Project" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+				</Compiler>
+				<Linker>
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+					<Add library="winmm.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="Actions/Action.h" />
+		<Unit filename="Actions/AddCircAction.cpp" />
+		<Unit filename="Actions/AddCircAction.h" />
+		<Unit filename="Actions/AddLAction.cpp" />
+		<Unit filename="Actions/AddLAction.h" />
+		<Unit filename="Actions/AddRectAction.cpp" />
+		<Unit filename="Actions/AddRectAction.h" />
+		<Unit filename="Actions/AddTriAction.cpp" />
+		<Unit filename="Actions/AddTriAction.h" />
+		<Unit filename="Actions/DrawingAreaAction.cpp" />
+		<Unit filename="Actions/DrawingAreaAction.h" />
+		<Unit filename="ApplicationManager.cpp" />
+		<Unit filename="ApplicationManager.h" />
+		<Unit filename="CMUgraphicsLib/CMUgraphics.cpp" />
+		<Unit filename="CMUgraphicsLib/CMUgraphics.h" />
+		<Unit filename="CMUgraphicsLib/auxil.cpp" />
+		<Unit filename="CMUgraphicsLib/auxil.h" />
+		<Unit filename="CMUgraphicsLib/colors.h" />
+		<Unit filename="CMUgraphicsLib/error.h" />
+		<Unit filename="CMUgraphicsLib/image.cpp" />
+		<Unit filename="CMUgraphicsLib/image.h" />
+		<Unit filename="CMUgraphicsLib/jpeg/jcomapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jconfig.h" />
+		<Unit filename="CMUgraphicsLib/jpeg/jcparam.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdapimin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdapistd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdatasrc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdcoefct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdcolor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdct.h" />
+		<Unit filename="CMUgraphicsLib/jpeg/jddctmgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdhuff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdhuff.h" />
+		<Unit filename="CMUgraphicsLib/jpeg/jdinput.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdmainct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdmarker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdmaster.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdmerge.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdphuff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdpostct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdsample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jdtrans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jerror.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jerror.h" />
+		<Unit filename="CMUgraphicsLib/jpeg/jidctflt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jidctfst.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jidctint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jidctred.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jinclude.h" />
+		<Unit filename="CMUgraphicsLib/jpeg/jmemmgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jmemnobs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jmemsys.h" />
+		<Unit filename="CMUgraphicsLib/jpeg/jmorecfg.h" />
+		<Unit filename="CMUgraphicsLib/jpeg/jpegint.h" />
+		<Unit filename="CMUgraphicsLib/jpeg/jpeglib.h" />
+		<Unit filename="CMUgraphicsLib/jpeg/jquant1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jquant2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jutils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpeg/jversion.h" />
+		<Unit filename="CMUgraphicsLib/jpegload.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CMUgraphicsLib/jpegload.h" />
+		<Unit filename="CMUgraphicsLib/keyqueue.cpp" />
+		<Unit filename="CMUgraphicsLib/keyqueue.h" />
+		<Unit filename="CMUgraphicsLib/mousequeue.cpp" />
+		<Unit filename="CMUgraphicsLib/mousequeue.h" />
+		<Unit filename="CMUgraphicsLib/version.h" />
+		<Unit filename="CMUgraphicsLib/windowinput.cpp" />
+		<Unit filename="CMUgraphicsLib/windowinput.h" />
+		<Unit filename="ClassDiagram.cd" />
+		<Unit filename="DEFS.h" />
+		<Unit filename="Figures/CCircle.cpp" />
+		<Unit filename="Figures/CCircle.h" />
+		<Unit filename="Figures/CFigure.cpp" />
+		<Unit filename="Figures/CFigure.h" />
+		<Unit filename="Figures/CLine.cpp" />
+		<Unit filename="Figures/CLine.h" />
+		<Unit filename="Figures/CRectangle.cpp" />
+		<Unit filename="Figures/CRectangle.h" />
+		<Unit filename="Figures/CTriangle.cpp" />
+		<Unit filename="Figures/CTriangle.h" />
+		<Unit filename="GUI/Input.cpp" />
+		<Unit filename="GUI/Input.h" />
+		<Unit filename="GUI/Output.cpp" />
+		<Unit filename="GUI/Output.h" />
+		<Unit filename="GUI/UI_Info.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
